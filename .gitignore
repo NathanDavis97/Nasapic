@@ -6,6 +6,7 @@ node_modules
 # local env files
 .env.local
 .env.*.local
+data key = uk5mSxFkK9V65pS1W2OosKI3YOxbhtp5r0FD1git
 
 # Log files
 npm-debug.log*

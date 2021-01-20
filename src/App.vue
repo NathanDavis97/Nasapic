@@ -1,20 +1,32 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img
+    alt="Vue logo"
+    src="./assets/logo.png"
+  >
+  <h1>Nasa Picture Place</h1>
+  <date-component />
+  <apod />
+  <results-component />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import apod from './components/apod.vue'
+import DateComponent from './components/dateComponent.vue'
+import ResultsComponent from './components/resultsComponent.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    apod,
+    DateComponent,
+    ResultsComponent
   }
 }
 </script>
 
-<style lang="scss">
+<style
+    Da,
+    ResultsComponentteComponentlang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
